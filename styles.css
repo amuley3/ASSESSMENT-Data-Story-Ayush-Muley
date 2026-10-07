@@ -5,6 +5,7 @@
     --color-accent:#ffc627;
     --color-muted:#747474;
     --color-border:#d0d0d0;
+    --color-graphic-surface:#f1f1f1;
     --space-3:1rem;
     --radius-card:.5rem;
     --measure:68ch;
@@ -85,7 +86,7 @@ thead{
     outline-offset:.2rem;
 }
 .graphic-surface{
-    fill:#f1f1f1;
+    fill:var(--color-graphic-surface);
 }
 .graphic-primary{
     fill:var(--color-action);
@@ -94,6 +95,19 @@ thead{
     fill:var(--color-accent);
 }
 .graphic-line{
+    fill:none;
     stroke:var(--color-muted);
     stroke-width:8;
+}
+
+.svg-dark{
+    fill:var(--color-text);
+    font-family:Georgia,serif;
+    font-size:16px;
+}
+
+.svg-white{
+    fill:#fff;
+    font-family:Georgia,serif;
+    font-size:20px;
 }

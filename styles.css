@@ -111,11 +111,13 @@ thead{
 .svg-dark{
     fill:var(--color-text);
     font-family:var(--font-body);
-    font-size:16px;
+    font-size:14px;
+    text-anchor: middle;
 }
 
 .svg-white{
     fill:#fff;
     font-family:var(--font-body);
-    font-size:20px;
+    font-size:14px;
+    text-anchor: middle;
 }
